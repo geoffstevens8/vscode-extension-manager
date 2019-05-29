@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/geoffstevens8/vscode-extension-manager"
   },
-  "homepage":"https://github.com/geoffstevens8/vscode-extension-manager/readme",
+  "homepage":"https://github.com/geoffstevens8/vscode-extension-manager",
   "author": "thegeoffstevens",
   "license": "ISC",
   "dependencies": {

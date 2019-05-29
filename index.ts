@@ -47,7 +47,7 @@ export async function getExtensionsWithVersions() {
     return result;
 }
 
-// install an extension
+// install an extension, takes argument publisher.extensionName
 export async function installExtension(extensionID:any){
     let result: any = null;
     var command =  `code --install-extension ${extensionID}`;
@@ -60,7 +60,7 @@ export async function installExtension(extensionID:any){
     return result;
 }
 
-// remove an extension 
+// remove an extension, takes argument publisher.extensionName
 export async function uninstallExtension(extensionID:any){
     let result: any = null;
     var command = `code --uninstall-extension ${extensionID}`;

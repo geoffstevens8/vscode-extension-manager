@@ -9,11 +9,8 @@ A few commands to help you manage extensions in VS Code by installing, uninstall
 ## API
 
 ``` typescript
-import {
-    getExtensions,
-    getExtensionsWithVersions,
-    installExtension,
-    uninstallExtension } from 'vscode-extension-manager'
+
+import * as CodeExtensionManager from 'vscode-extension-manager';
 
 // returns an array of installed extensions
 await CodeExtensionManager.getExtensions()

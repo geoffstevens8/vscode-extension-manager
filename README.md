@@ -1,5 +1,7 @@
 # vscode-extension-manager
 
+A few commands to help you manage extensions in VS Code by installing, uninstalling, or listing extensions. 
+
 ## Installation
 
 `$ npm install vscode-extension-manager`
